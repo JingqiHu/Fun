@@ -1,5 +1,4 @@
-function changeImage()
-{
+function changeImage(){
 element=document.getElementById('myimage')
 if (element.src.match("bob2"))
   {
@@ -9,6 +8,7 @@ else
   {
   element.src="bob2.jpg";
   }
+  
 }
 
 

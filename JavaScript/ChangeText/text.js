@@ -1,5 +1,4 @@
-function changeText()
-{
+function changeText(){
 element=document.getElementById('color')
 //0-2
 num=Math.floor(Math.random()*3 + 0);
@@ -10,6 +9,7 @@ else if (num==1)
 element.innerHTML="Green";
 else
 element.innerHTML="yellow";	
+
 }
 
 
